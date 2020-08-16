@@ -6,7 +6,6 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
-    list-style: none;
     display: grid;
     grid-template-columns: 460px 484px;
     column-gap: 40px;
