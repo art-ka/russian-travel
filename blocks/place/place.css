@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
     .place {
-        grid-template-columns: 320px;
+        grid-template-columns: 1fr;
         padding-bottom: 48px;
         row-gap: 32px;
     }
@@ -34,7 +34,7 @@
     .place {
         column-gap: 28px;
         padding-bottom: 72px;
-        grid-template-columns: 340px fit-content(352px);
+        grid-template-columns: 1fr fit-content(352px);
         }
     .place:last-of-type {
         padding-bottom: 88px;
@@ -45,7 +45,7 @@
     .place {
         column-gap: 32px;
         padding-bottom: 80px;
-        grid-template-columns: 440px 456px;
+        grid-template-columns: 1fr 456px;
         }
     .place:last-of-type {
         padding-bottom: 92px;

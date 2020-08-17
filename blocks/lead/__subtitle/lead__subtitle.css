@@ -24,6 +24,8 @@
     .lead__subtitle {
         width: 83.33%;
         margin-bottom: 56px;
+        font-size: 30px;
+        line-height: 1.2;
     }
 }
 

@@ -1,33 +1,121 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__background/cover__background.css);
-@import url(./__overlay/cover__overlay.css);
-@import url(./__text/cover__text.css);
+@import url(./__link/cover__link.css);
 
 .cover {
+    background-image: url(../../images/__background.jpg);
     max-width: 1184px;
+    min-height: 740px;
     margin: auto;
     position: relative;
     margin-bottom: 92px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 768px) and (min-width: 320px) {
+@media screen and (max-width: 400px) and (min-width: 320px) {
     .cover {
         width: 100%;
+        min-height: 200px;
+        margin-bottom: 64px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 400px) {
+    .cover {
+        width: 100%;
+        min-height: 270px;
+        background-size: cover;
         margin-bottom: 64px;
     }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 600px) and (min-width: 500px) {
+    .cover {
+        width: 100%;
+        min-height: 320px;
+        background-size: cover;
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 600px) {
+    .cover {
+        width: 100%;
+        min-height: 375px;
+        background-size: cover;
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 650px) {
+    .cover {
+        width: 100%;
+        min-height: 440px;
+        background-size: cover;
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 768px) {
     .cover {
         width: 100%;
         margin-bottom: 88px;
+        min-height: 480px;
+        background-size: cover;
         }
 }
 
-@media screen and (max-width: 1184px) and (min-width: 1024px) {
+@media screen and (max-width: 900px) and (min-width: 800px) {
+    .cover {
+        width: 100%;
+        margin-bottom: 88px;
+        min-height: 500px;
+        background-size: cover;
+        }
+}
+
+@media screen and (max-width: 960px) and (min-width: 900px) {
+    .cover {
+        width: 100%;
+        margin-bottom: 88px;
+        min-height: 580px;
+        background-size: cover;
+        }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 960px) {
+    .cover {
+        width: 100%;
+        margin-bottom: 88px;
+        min-height: 610px;
+        background-size: cover;
+        }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1024px) {
     .cover {
         width: 100%;
         margin-bottom: 92px;
+        min-height: 640px;
+        background-size: cover;
+        }
+}
+
+@media screen and (max-width: 1184px) and (min-width: 1100px) {
+    .cover {
+        width: 100%;
+        margin-bottom: 92px;
+        min-height: 700px;
+        background-size: cover;
+        }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1184px) {
+    .cover {
+        max-width: 1184px;
+        margin-bottom: 92px;
+        min-height: 740px;
         }
 }
