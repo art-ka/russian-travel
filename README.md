@@ -1,4 +1,4 @@
-# Travel in Russia
+# Travel in Russia | [На русском](#anchortext)
 
 Content
 * Description
@@ -19,11 +19,11 @@ On this project, I trained to apply in practice knowledge of grids, media querie
 Add new blocks to the site.
 
 
-# Путешествие по России
+# <a name="anchortext" />Путешествие по России
 
 ### Содержание 
 * Интро 
-* Link
+* Ссылка
 * Планы 
 
 **Интро**
@@ -31,7 +31,7 @@ Add new blocks to the site.
 Проект о путешествиях по России, на котором я обучалась применять на практике знания, полученные в Яндекс.Практикуме. А именно: гриды, медиазапросы, флекс, БЭМ.
 
 
-**Github Pages**
+**Ссылка**
 
 * [Website on Github Pages](https://art-ka.github.io/russian-travel/)
 
