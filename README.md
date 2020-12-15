@@ -1,4 +1,4 @@
-# Travel across Russia
+# Travel in Russia
 
 Content
 * Description
@@ -7,6 +7,7 @@ Content
 
 **Description**
 
+This site is about traveling in Russia with photos and descriptions of beautiful places.
 On this project, I trained to apply in practice knowledge of grids, media queries, flex, BEM.
 
 **Github Pages**
