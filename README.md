@@ -1,9 +1,9 @@
-# Путешествие по России | # Travel across Russia
+# Путешествие по России | Travel across Russia
 
 ### Содержание | ###Content
-* Интро | * Description
+* Интро | Description
 * Link
-* Планы * Plans
+* Планы | Plans
 
 **Интро**
 
